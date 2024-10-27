@@ -62,6 +62,11 @@ const AppHeader = () => {
           </CNavItem>
           <CNavItem>
             <CNavLink href="#">Settings</CNavLink>
+            </CNavItem>
+          <CNavItem CNavItem>
+            <CNavLink to="/prueba" as={NavLink}>
+              Prueba
+            </CNavLink>
           </CNavItem>
         </CHeaderNav>
         <CHeaderNav className="ms-auto">
