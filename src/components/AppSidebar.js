@@ -10,8 +10,8 @@ import {
 } from '@coreui/react'
 import { AppSidebarNav } from './AppSidebarNav'
 
-// Cambia la importación a tu archivo PNG
-import logo from '../assets/brand/100-ANYS-PRAT.jpg'; // Asegúrate de que esta ruta sea correcta
+
+import logo from '../assets/brand/100-ANYS-PRAT.jpg'; 
 
 
 
@@ -36,7 +36,7 @@ const AppSidebar = () => {
     >
       <CSidebarHeader className="border-bottom">
         <CSidebarBrand to="/">
-          <img src={logo} alt="Logo" height={60} className="sidebar-brand-full" />
+          <img src={logo} height={60} className="sidebar-brand-full" />
         </CSidebarBrand>
         <CCloseButton
           className="d-lg-none"
