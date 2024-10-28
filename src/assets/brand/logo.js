@@ -6,7 +6,7 @@ const Logo = () => {
     <img 
       src={logoImage} 
       alt="Logo" 
-      height={32} // Ajusta la altura según lo necesites
+      height={32} 
       className="sidebar-brand-full" 
     />
   );
